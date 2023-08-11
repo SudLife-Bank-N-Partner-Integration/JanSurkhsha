@@ -1,0 +1,22 @@
+<div style="width:363px">
+    <h2 mat-dialog-title>Please enter valid OTP</h2>
+    <div mat-dialog-content>
+        <div class="row">
+            <div class="col-md-2"><mat-form-field appearance="outline"  style="width: 48px;"><input matInput numbersOnly maxlength="1" ></mat-form-field></div>
+            <div class="col-md-2"><mat-form-field appearance="outline"  style="width: 48px;"><input matInput numbersOnly maxlength="1" ></mat-form-field></div>
+            <div class="col-md-2"><mat-form-field appearance="outline"  style="width: 48px;"><input matInput numbersOnly maxlength="1" ></mat-form-field></div>
+            <div class="col-md-2"><mat-form-field appearance="outline"  style="width: 48px;"><input matInput numbersOnly maxlength="1" ></mat-form-field></div>
+            <div class="col-md-2"><mat-form-field appearance="outline"  style="width: 48px;"><input matInput numbersOnly maxlength="1" ></mat-form-field></div>
+        </div>
+    </div>
+    <div mat-dialog-actions align="end">
+        <span>
+            <button type="button" mat-flat-button color="primary" mat-dialog-close>
+                Clear
+            </button>
+            <button type="button" mat-stroked-button color="primary" (click)="CloseDialog()">
+                Cancel
+            </button>
+        </span>
+    </div>
+</div>
