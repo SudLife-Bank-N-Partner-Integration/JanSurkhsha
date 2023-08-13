@@ -7,7 +7,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '../global/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { OtpDialogComponent } from '../otp-dialog/otp-dialog.component';
-import { NumberDirective } from '../global/numbers-only.directive';
+import { FocusMeDirective } from '../global/focus-me.directive';
+import { OtpValidationDirective } from '../global/otp-validation.directive';
 
 
 const routes: Routes = [
@@ -32,7 +33,8 @@ const routes: Routes = [
     LoginLayoutComponent,
     LoginScreenComponent,
     OtpDialogComponent,
-    NumberDirective
+    FocusMeDirective,
+    OtpValidationDirective
   ],
   providers: [
 
